@@ -15,7 +15,7 @@ let nextRewardNFTId = 1; // Simple counter for NFT IDs
 app.use(express.json());
 // Configure CORS options
 const corsOptions = {
-    origin: 'https://effortless-cat-acff42.netlify.app/', // Only allow requests from your Netlify domain
+    origin: 'https://prismatic-klepon-6a9ff9.netlify.app/', // Only allow requests from your Netlify domain
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Specify allowed HTTP methods
     credentials: true, // If you need to handle cookies across origins (set accordingly)
     allowedHeaders: 'Content-Type, Authorization', // Specify allowed request headers
