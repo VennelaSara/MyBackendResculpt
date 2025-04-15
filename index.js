@@ -98,7 +98,7 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .catch(err => console.error('Could not connect to MongoDB Atlas', err));
 
 // Define the port the server will listen on
-const port = 3000;
+const port = 5173;
 
 // Define a simple route for the root path ('/')
 app.get('/', (req, res) => {
